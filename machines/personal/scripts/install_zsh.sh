@@ -55,7 +55,7 @@ check_dependencies() {
 
 # Main function to install the zshrc file
 install_zshrc() {
-  local repo_url="https://github.com/stellaOnEstrogen/dotfiles"
+  local repo_url="https://github.com/chocoOnEstrogen/dotfiles"
   local tmp_dir
   tmp_dir=$(mktemp -d)
 

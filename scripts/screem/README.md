@@ -23,7 +23,7 @@ To use the script, run it from the command line with the following options:
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/stellaOnEstrogen/dotfiles
+    git clone https://github.com/chocoOnEstrogen/dotfiles
     cd dotfiles/scripts/screem
     ```
 
@@ -46,7 +46,7 @@ To use the script, run it from the command line with the following options:
 
 ## Author
 
-- **Stella**: <stellaonestrogen@gmail.com>
+- **Stella**: <choco@choco.rip>
 
 Version: 1.0  
 Last Updated: 1/10/2024 00:19 AM JST (GMT+9, Tokyo)

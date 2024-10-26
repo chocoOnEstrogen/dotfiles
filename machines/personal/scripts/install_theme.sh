@@ -49,7 +49,7 @@ check_dependencies() {
 
 # Main function to install the theme
 install_theme() {
-  local repo_url="https://github.com/stellaOnEstrogen/dotfiles"
+  local repo_url="https://github.com/chocoOnEstrogen/dotfiles"
   local tmp_dir
   tmp_dir=$(mktemp -d)
   local theme_dir="$HOME/.themes"

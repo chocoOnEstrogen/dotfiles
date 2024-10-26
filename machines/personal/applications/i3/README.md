@@ -12,7 +12,7 @@ Welcome to the configuration hub for my i3 window manager setup! This directory 
 To install my i3 configuration, simply clone my dotfiles repository and copy the i3 configuration file to your i3 config directory:
 
 ```bash
-git clone https://github.com/stellaOnEstrogen/dotfiles.git
+git clone https://github.com/chocoOnEstrogen/dotfiles.git
 cp dotfiles/machines/personal/applications/i3/config ~/.config/i3/config
 ```
 

@@ -19,16 +19,16 @@
 #   ./pkg -v, --version          - Display version information
 #   ./pkg config                 - Edit configuration file
 #
-# Author: Stella <stellaonestrogen@gmail.com>
+# Author: Stella <choco@choco.rip>
 # Version: 1.0
 # Last Updated: 19/9/2024 05:33 AM JST (GMT+9, Tokyo)
 
 # Variables
 VERSION="1.0"
 LAST_UPDATED="19/9/2024 05:33 AM JST (GMT+9, Tokyo)"
-AUTHOR="Stella <stellaonestrogen@gmail.com>"
-GITHUB="https://github.com/stellaOnEstrogen/dotfiles"
-BUG_REPORT="https://github.com/stellaOnEstrogen/dotfiles/issues"
+AUTHOR="Stella <choco@choco.rip>"
+GITHUB="https://github.com/chocoOnEstrogen/dotfiles"
+BUG_REPORT="https://github.com/chocoOnEstrogen/dotfiles/issues"
 CONFIG_FILE="$HOME/.pkg_config"
 
 # Load configuration

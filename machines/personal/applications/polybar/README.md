@@ -13,7 +13,7 @@ Welcome to the configuration hub for my Polybar setup! This directory holds all 
 To install my Polybar configuration, simply clone my dotfiles repository and copy the Polybar configuration files to your Polybar config directory:
 
 ```bash
-git clone https://github.com/stellaOnEstrogen/dotfiles.git
+git clone https://github.com/chocoOnEstrogen/dotfiles.git
 cp -r dotfiles/machines/personal/applications/polybar ~/.config/polybar
 ```
 

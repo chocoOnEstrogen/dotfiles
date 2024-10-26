@@ -13,7 +13,7 @@ Welcome to the configuration hub for my Rofi setup! This directory holds all the
 To install my Rofi configuration, simply clone my dotfiles repository and copy the Rofi configuration files to your Rofi config directory:
 
 ```bash
-git clone https://github.com/stellaOnEstrogen/dotfiles.git
+git clone https://github.com/chocoOnEstrogen/dotfiles.git
 cp -r dotfiles/machines/personal/applications/rofi ~/.config/rofi
 ```
 

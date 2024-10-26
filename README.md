@@ -41,7 +41,7 @@ To use these dotfiles:
 
 1. Clone the repository:
    ```
-   git clone https://github.com/stellaOnEstrogen/dotfiles.git
+   git clone https://github.com/chocoOnEstrogen/dotfiles.git
    ```
 2. Navigate to the specific machine or application directory you're interested in.
 3. Follow the instructions in the respective README files to set up the configurations.

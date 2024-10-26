@@ -48,7 +48,7 @@ To use the script, run it from the command line with the following options:
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/stellaOnEstrogen/dotfiles
+    git clone https://github.com/chocoOnEstrogen/dotfiles
     cd dotfiles/scripts/pkg
     ```
 
