@@ -4,41 +4,59 @@
 
 - [System Information](#system-information)
 - [Applications](#applications)
-  - [GNOME and GTK](./applications/gnome/README.md)
-  - [Zsh](./applications/zsh/README.md)
-  - [i3](./applications/i3/README.md)
-  - [Polybar](./applications/polybar/README.md)
-  - [Rofi](./applications/rofi/README.md)
+    - [Zsh](./applications/zsh/README.md)
+    - [Neovim](./applications/neovim/README.md)
+    - [Powerlevel10k](./applications/p10k/README.md)
+- [Resources](#resources)
+    - [Wallpapers](./wallpapers/README.md)
+    - [Fonts](./fonts/README.md)
+- [Legacy (No longer in use)](#legacy-no-longer-in-use)
+    - [GNOME and GTK](./applications/legacy/gnome-gtk/README.md)
+    - [i3](./applications/legacy/i3/README.md)
+    - [Polybar](./applications/legacy/polybar/README.md)
+    - [Rofi](./applications/legacy/rofi/README.md)
 
 ## System Information
 
-```sh
-$ neofetch
+```bash
+$ fastfetch --structure WM:Title:Terminal:Shell:OS:Memory:LM:Kernel:DateTime:Colors
 
-stella@stellas-box 
------------------- 
-OS: Fedora Linux 40 (Workstation Edition) x86_64 
-Host: HP EliteDesk 800 G1 SFF 
-Kernel: 6.10.8-200.fc40.x86_64 
-Uptime: 17 hours, 41 mins 
-Packages: 2148 (rpm), 19 (flatpak) 
-Shell: bash 5.2.26 
-Resolution: 1920x1080 
-DE: GNOME 46.4 
-WM: Mutter 
-WM Theme: Catppuccin-Dark 
-Theme: Catppuccin-Dark [GTK2/3] 
-Icons: Adwaita [GTK2/3] 
-Terminal: gnome-terminal 
-CPU: Intel i5-4670 (4) @ 3.800GHz 
-GPU: Intel HD Graphics # Yes... I know... it's not great...
-Memory: 7014MiB / 31985MiB
+                                         WM 󰑃  Hyprland (Wayland)
+                  -`                     choco@uwu
+                 .o+`                    Terminal 󰑃  kitty 0.37.0
+                `ooo/                    Shell 󰑃  zsh 5.9
+               `+oooo:                   OS 󰑃  Arch Linux x86_64
+              `+oooooo:                  Memory 󰑃  3.30 GiB / 23.36 GiB (14%)
+              -+oooooo+:                 LM 󰑃  sddm 0.21.0 (Wayland)
+            `/:-:++oooo+:                Kernel 󰑃  Linux 6.11.9-arch1-1
+           `/++++/+++++++:               Date & Time 󰑃  2024-11-19 15:26:06
+          `/++++++++++++++:                                      
+         `/+++ooooooooooooo/`                                    
+        ./ooosssso++osssssso+`
+       .oossssso-````/ossssss+`
+      -osssssso.      :ssssssso.
+     :osssssss/        osssso+++.
+    /ossssssss/        +ssssooo/-
+  `/ossssso+/:-        -:/+osssso+-
+ `+sso+:-`                 `.-/+oso:
+`++:.                           `-/+/
+.`                                 `/
 ```
 
 ## Applications
 
-- [GNOME and GTK](./applications/gnome/README.md)
 - [Zsh](./applications/zsh/README.md)
-- [i3](./applications/i3/README.md)
-- [Polybar](./applications/polybar/README.md)
-- [Rofi](./applications/rofi/README.md)
+- [Neovim](./applications/neovim/README.md)
+- [Powerlevel10k](./applications/p10k/README.md)
+
+## Resources
+
+- [Wallpapers](./wallpapers)
+- [Fonts](./fonts)
+
+## Legacy (No longer in use)
+
+- [GNOME and GTK](./applications/legacy/gnome-gtk/README.md)
+- [i3](./applications/legacy/i3/README.md)
+- [Polybar](./applications/legacy/polybar/README.md)
+- [Rofi](./applications/legacy/rofi/README.md)

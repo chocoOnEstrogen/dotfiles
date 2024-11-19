@@ -67,7 +67,7 @@ install_theme() {
   fi
 
   # Copy the theme files
-  if ! cp -r "$tmp_dir/machines/personal/applications/gnome/theme/$theme_name" "$theme_dir"; then
+  if ! cp -r "$tmp_dir/machines/personal/applications/legacy/gnome/theme/$theme_name" "$theme_dir"; then
     echo "Error: Failed to copy theme files."
     exit 1
   fi
