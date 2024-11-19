@@ -20,7 +20,6 @@ The repository is organized as follows:
 ## Machines
 
 - [Personal Machine](./machines/personal/README.md)
-  - [System Information](./machines/personal/README.md#system-information)
   - [Applications](#applications)
     - [Zsh](./applications/zsh/README.md)
     - [Neovim](./applications/neovim/README.md)
