@@ -21,12 +21,19 @@ The repository is organized as follows:
 
 - [Personal Machine](./machines/personal/README.md)
   - [System Information](./machines/personal/README.md#system-information)
-  - [Applications](./machines/personal/README.md#applications)
-    - [GNOME and GTK](./machines/personal/applications/gnome/README.md)
-    - [Zsh](./machines/personal/applications/zsh/README.md)
-    - [i3](./machines/personal/applications/i3/README.md)
-    - [Polybar](./machines/personal/applications/polybar/README.md)
-    - [Rofi](./machines/personal/applications/rofi/README.md)
+  - [Applications](#applications)
+    - [Zsh](./applications/zsh/README.md)
+    - [Neovim](./applications/neovim/README.md)
+    - [Powerlevel10k](./applications/p10k/README.md)
+- [Resources](#resources)
+    - [Wallpapers](./wallpapers/README.md)
+    - [Fonts](./fonts/README.md)
+- [Legacy (No longer in use)](#legacy-no-longer-in-use)
+    - [GNOME and GTK](./applications/legacy/gnome-gtk/README.md)
+    - [i3](./applications/legacy/i3/README.md)
+    - [Polybar](./applications/legacy/polybar/README.md)
+    - [Rofi](./applications/legacy/rofi/README.md)
+
 
 ## Scripts
 
