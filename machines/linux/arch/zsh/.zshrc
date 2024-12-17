@@ -196,3 +196,19 @@ alias gc='git commit'
 alias gp='git push'
 alias gl='git pull'
 alias gd='git diff'
+
+function precmd() {
+    local last_status=$?
+    local praise_messages=(
+        "\033[38;5;82mGood Girl~\033[0m"
+        "\033[38;5;118mSuch a clever girl!\033[0m"
+        "\033[38;5;156mYou're doing amazing~\033[0m"
+        "\033[38;5;193mThat's my smart girl!\033[0m"
+        "\033[38;5;229mGood Puppy~\033[0m"
+        "\033[38;5;219mBe a good girl for me~\033[0m"
+    )
+    
+    if [ $last_status -eq 0 ]; then
+        echo "${praise_messages[$((RANDOM % ${#praise_messages[@]} + 1))]}"
+    fi
+}
