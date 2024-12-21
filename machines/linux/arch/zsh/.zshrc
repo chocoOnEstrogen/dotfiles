@@ -10,6 +10,8 @@ export ZSH="$HOME/.oh-my-zsh"
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
 ZSH_THEME="robbyrussell"
 
+export PRAISE_TYPE="girl" # girl, boy
+
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
 # a theme from this variable instead of looking in $ZSH/themes/
@@ -197,9 +199,10 @@ alias gp='git push'
 alias gl='git pull'
 alias gd='git diff'
 
+# Command execution status messages
 function precmd() {
     local last_status=$?
-    local praise_messages=(
+    local praise_messages_girl=(
         "\033[38;5;82mGood Girl~\033[0m"
         "\033[38;5;118mSuch a clever girl!\033[0m"
         "\033[38;5;156mYou're doing amazing~\033[0m"
@@ -207,8 +210,21 @@ function precmd() {
         "\033[38;5;229mGood Puppy~\033[0m"
         "\033[38;5;219mBe a good girl for me~\033[0m"
     )
+    local praise_messages_boy=(
+        "\033[38;5;82mGood Boy~\033[0m"
+        "\033[38;5;118mSuch a clever boy!\033[0m"
+        "\033[38;5;156mYou're doing amazing~\033[0m"
+        "\033[38;5;193mThat's my smart boy!\033[0m"
+        "\033[38;5;229mGood Puppy~\033[0m"
+        "\033[38;5;219mBe a good boy for me~\033[0m"
+    )
     
     if [ $last_status -eq 0 ]; then
-        echo "${praise_messages[$((RANDOM % ${#praise_messages[@]} + 1))]}"
+        # echo "${praise_messages[$((RANDOM % ${#praise_messages[@]} + 1))]}"
+        if [ $PRAISE_TYPE = "girl" ]; then
+            echo "${praise_messages_girl[$((RANDOM % ${#praise_messages_girl[@]} + 1))]}"
+        else
+            echo "${praise_messages_boy[$((RANDOM % ${#praise_messages_boy[@]} + 1))]}"
+        fi
     fi
 }
